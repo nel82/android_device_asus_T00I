@@ -22,5 +22,8 @@ TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1782579200 # 1.7GByte
 BOARD_FLASH_BLOCK_SIZE := 131072
 
+# SELinux
+BOARD_SEPOLICY_DIRS += device/asus/T00I/sepolicy
+
 # Use the non-open-source parts, if they're present
 -include vendor/asus/T00I/BoardConfigVendor.mk

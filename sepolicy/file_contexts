@@ -1,0 +1,15 @@
+## A400CG ##
+
+# sensor
+/dev/akm09911                   u:object_r:sensors_device:s0
+/dev/akm09911_dev               u:object_r:sensors_device:s0
+/dev/ap3212c_als_misc_dev       u:object_r:sensors_device:s0
+/dev/ap3212c_ps_misc_dev        u:object_r:sensors_device:s0
+/dev/cap1106_cs_misc_dev        u:object_r:sensors_device:s0
+/dev/kxtj9_dev                  u:object_r:sensors_device:s0
+/dev/px3003b_misc_dev           u:object_r:sensors_device:s0
+/dev/apds990x_lsensor           u:object_r:sensors_device:s0
+/dev/apds990x_psensor           u:object_r:sensors_device:s0
+# Touch
+/dev/hx8528			u:object_r:sensors_device:s0
+
