@@ -25,5 +25,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 # SELinux
 BOARD_SEPOLICY_DIRS += device/asus/T00I/sepolicy
 
+TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/doubletap2wake"
+
 # Use the non-open-source parts, if they're present
 -include vendor/asus/T00I/BoardConfigVendor.mk
