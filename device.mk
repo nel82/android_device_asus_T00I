@@ -21,6 +21,12 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=240
 
+# Ramdisk config of governors
+ADDITIONAL_DEFAULT_PROPERTIES += \
+    ro.sys.perf.device.powersave=800000 \
+    ro.sys.perf.device.full=1233000 \
+    ro.sys.perf.device.touchboost=1030000
+
 # call dalvik heap config
 $(call inherit-product-if-exists, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 
