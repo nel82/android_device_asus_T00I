@@ -17,6 +17,9 @@
 # inherit from common cvtlp-common
 -include device/asus/cvtlp-common/BoardConfigCommon.mk
 
+# Cmhw
+BOARD_HARDWARE_CLASS := device/asus/T00I/cmhw
+
 # Partitions
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1782579200 # 1.7GByte
