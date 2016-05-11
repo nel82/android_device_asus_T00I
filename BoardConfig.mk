@@ -17,6 +17,8 @@
 # inherit from common ctp-common
 -include device/asus/ctp-common/BoardConfigCommon.mk
 
+TARGET_RELEASETOOLS_EXTENSIONS := device/asus/T00I
+
 # Partitions
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1782579200 # 1.7GByte
