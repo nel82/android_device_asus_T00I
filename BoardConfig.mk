@@ -29,5 +29,8 @@ BOARD_SEPOLICY_DIRS += device/asus/T00I/sepolicy
 
 TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/doubletap2wake"
 
+# Key layout files
+BOARD_TOUCHSCREEN_DRIVER := himax-touchscreen
+
 # Use the non-open-source parts, if they're present
 -include vendor/asus/T00I/BoardConfigVendor.mk
