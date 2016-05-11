@@ -36,13 +36,8 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-hwui
 DEVICE_PACKAGE_OVERLAYS := \
     device/asus/T00I/overlay
 
-# Key layout files
-PRODUCT_COPY_FILES += \
-    device/asus/T00F/idc/synaptics_dsx.idc:system/usr/idc/himax-touchscreen.idc \
-    device/asus/cvtlp-common/keylayout/synaptics_dsx.kcm:system/usr/keychars/himax-touchscreen.kcm \
-    device/asus/cvtlp-common/keylayout/synaptics_dsx.kl:system/usr/keylayout/himax-touchscreen.kl
 
 $(call inherit-product-if-exists, vendor/asus/T00I/T00I-vendor.mk)
 
-# Inherit from cvtlp-common
-$(call inherit-product, device/asus/cvtlp-common/cvtlp.mk)
+# Inherit from ctp-common
+$(call inherit-product, device/asus/ctp-common/ctp.mk)
