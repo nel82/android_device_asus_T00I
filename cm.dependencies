@@ -1,9 +1,9 @@
 [
   {
     "remote": "github",
-    "repository": "Zenfone-Dev/android_kernel_asus_T00I",
+    "repository": "nel82/android_kernel_asus_T00I",
     "target_path": "kernel/asus/T00I",
-    "revision": "cm-13.0"
+    "revision": "stock-T00I"
   },
   {
     "remote": "github",
